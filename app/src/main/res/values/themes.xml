@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#04051D</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/xpen_logo_transparent</item>
+        <item name="windowSplashScreenAnimationDuration">700</item>
+        <item name="android:windowSplashScreenBrandingImage" tools:targetApi="31">@drawable/branding_image</item>
+        <item name="postSplashScreenTheme">@style/Theme.Xpen</item>
+    </style>
+    <style name="Theme.Xpen" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>
